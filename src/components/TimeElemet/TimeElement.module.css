@@ -1,0 +1,27 @@
+.dateContainer{
+    position: relative;
+    display: flex;
+    background-color: #fbfcfd;
+    min-width: 400px;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0 1px 1px -1px rgba(152, 162, 179, 0.2), 0 3px 2px -2px rgba(152, 162, 179, 0.2), inset 0 0 0 1px rgba(15, 39, 118, 0.1);
+}
+
+.btn{
+    background-color: inherit;
+    border: none;
+    border-right: 1px solid #e4e8ee;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.btn:disabled{
+    background-color: #f8f8f8   ;
+}

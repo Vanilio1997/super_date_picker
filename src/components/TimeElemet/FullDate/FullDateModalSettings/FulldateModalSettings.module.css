@@ -1,0 +1,86 @@
+.container{
+    width: 400px;
+    max-width: 100%;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 12px 24px 0 rgba(65, 78, 101, 0.1), 0 6px 12px 0 rgba(65, 78, 101, 0.1), 0 4px 4px 0 rgba(65, 78, 101, 0.1), 0 2px 2px 0 rgba(65, 78, 101, 0.1);
+    border-color: #d0d3d9;
+    border-top-color: #d9dce0;
+    border-bottom-color: #aaafba;
+}
+
+.header{
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: relative;
+    border-bottom: 1px solid #a4a4a4;
+}
+
+.headerBtn{
+    flex-basis: 0%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: 14px;
+    font-size: 0.875rem;
+    padding: 8px;
+    border: none;
+    font-size: 1rem;
+    color: #343741;
+    background-color: transparent;
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 12px 16px;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.694, 0.0482, 0.335, 1), background-color 250ms cubic-bezier(0.694, 0.0482, 0.335, 1);
+}
+
+.btnActive{
+    color: #006BB4;
+    cursor: default;
+}
+
+.tabModalElement{
+    display: none;
+}
+
+.activeTab{
+    display: block;
+}
+
+.headerBtn.btnActive::after{
+    animation: tab 150ms cubic-bezier(0.694, 0.0482, 0.335, 1);
+    background-color: #006BB4;
+    bottom: 0;
+    content: ' ';
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}   
+
+.nowcontainer{
+    color: #6a717d;
+    padding: 12px;
+}
+
+.newSetBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nowSetBtn{
+    background-color: #006BB4;
+    border-color: #006BB4;
+    color: #FFF;
+    box-shadow: 0 2px 2px -1px rgba(54, 97, 126, 0.3);
+    height: 32px;
+    padding: 0 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+

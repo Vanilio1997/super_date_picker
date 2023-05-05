@@ -1,0 +1,20 @@
+.btn{
+    box-shadow: 0 2px 2px -1px rgba(54, 97, 126, 0.3);
+    background-color: #005c9b;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover{
+    text-decoration: underline;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px 0 rgba(54, 97, 126, 0.15), 0 2px 2px -1px rgba(54, 97, 126, 0.3);
+    background-color: #005c9b;
+}
+
+.btn:active{
+    transform: translateY(1px);
+    box-shadow: 0 4px 8px 0 rgba(54, 97, 126, 0.15), 0 2px 2px -1px rgba(54, 97, 126, 0.3);
+    background-color: #005c9b;
+}

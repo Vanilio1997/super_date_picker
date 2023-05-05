@@ -1,0 +1,22 @@
+.btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    flex:1 1 100%;
+    background: inherit;
+}
+
+.btn:disabled{
+    background-color: #eef2f7;
+}
+
+.showDates{
+    color: #006BB4;
+}
+
+.showDates:hover{
+    text-decoration: underline;
+}
